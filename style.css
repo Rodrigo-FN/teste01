@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+:root {
+    --titulo01: 'Permanent Marker', cursive;
+    --titulo02: 'Covered By Your Grace', cursive;
+    --texto01: 'Arial', 'Helvetica', 'sans-serif';
+
+    --cor01: #5CCCCA;
+    --cor02: #5B9EB5;
+    --cor03: #2A5969;
+    --cor04: #3937bd;
+    --cor05: rgb(1, 15, 75);
+
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    
+}
+
+body {
+    background-color: var(--cor02);
+}
+
+header {
+    padding: 20px;
+
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor03), var(--cor02));
+}
+
+header h1 {
+    font-family: var(--titulo01);
+    font-size: 3em;
+    font-weight: normal;
+    color: var(--cor05);
+
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.39);
+}
+
+header p {
+    font-family: var(--titulo01);
+    font-size: 1.2em;
+    font-weight: normal;
+    color: var(--cor05);
+
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.39);
+}
+
+header p:hover {
+ 
+    color: white;
+    background-color: var(--cor04);
+    border-radius: 10px;
+}
+
+nav {
+    background-color: var(--cor02);
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: var(--cor04);
+    font-family: var(--texto01);
+    font-weight: bolder;
+    padding: 10px;
+    
+}
+
+nav a:hover {
+    margin: 10px;
+    background-color: black;
+    color: white;
+
+    border-radius: 5px;
+}
+
+main {
+    max-width: 1000px;
+
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    margin-top: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.39);
+}
+
+main h1 {
+    font-family: var(--titulo01);
+    font-size: 2em;
+    font-weight: normal;
+
+    color: var(--cor04);
+
+    margin-bottom: 10px;
+
+    max-width: 800px;
+    
+}
+
+main h2 {
+    font-family: var(--titulo02);
+    font-size: 1.5em;
+    font-weight: normal;
+
+    margin-bottom: 20px;
+
+    color: var(--cor04);
+
+    background-image: linear-gradient(to right, var(--cor02), transparent);
+
+}
+
+main p {
+    
+    font-family: var(--texto01);
+    line-height: 2em;
+    font-size: 1.1em;
+
+    text-indent: 30px;
+
+    margin-bottom: 30px;
+
+}
+
+main p.ultimo {
+    font-family: var(--titulo02);
+    font-size: 2em;
+    text-align: center;
+
+    margin-top: 20px;
+
+    color: var(--cor04);
+}
+
+div.video {
+    background-color: #3937bd;
+
+    margin: 0px -20px ;
+    padding: 20px;
+    padding-bottom: 56.5%;
+
+    position: relative;
+}
+
+div.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequeno {
+    display: block;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+footer {
+    text-align: center;
+    color: white;
+    margin: 20px;
+
+    font-size: 1.1em;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor04);
+}
